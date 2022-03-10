@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Inicio">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de Ejercicios"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="166dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/image" />
+    <RelativeLayout
+        android:id="@+id/R1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="125dp"
+            android:src="@drawable/ic_baseline_bookmark_24"
+            app:tint="@color/purple_200" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="18dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="Ejercicio 1"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="125dp"
+            android:src="@drawable/ic_baseline_bookmark_24"
+            app:tint="@color/teal_200" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="18dp"
+            android:layout_toRightOf="@id/img2"
+            android:text="Ejercicio 2"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</LinearLayout>
